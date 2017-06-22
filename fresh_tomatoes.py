@@ -19,6 +19,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background-image: url("http://i.imgur.com/4QCsnzt.png");
         }
         #trailer .modal-dialog {
             margin-top: 200px;

@@ -1,10 +1,16 @@
 import webbrowser
 
+
 class Movie():
-    '''Movie class with information on movie title, storyline, release date (year), 
+    '''Movie class with information on movie title, storyline, release date (year),
         youtube trailer URL, and poster iamge URL'''
     def __init__(self, title, storyline, poster_image, trailer, release_date):
-        '''Movie class constructor initializing instance variables: title, storyline, poster_image, trailer, release_date'''
+        '''Movie class constructor initializing instance variables:
+           title (string),
+           storyline (string),
+           poster_image (string),
+           trailer (string),
+           release_date (int)'''
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image
