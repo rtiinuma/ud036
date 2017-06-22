@@ -1,8 +1,11 @@
 # Project: Movie Trailer Website
 
 Submission for "Project: Movie Trailer Website" for Udacity Full-Stack Program.
+
 Author: Renee Iinuma
+
 Date: 6/22/2017
+
 
 ## To Run
 
