@@ -17,10 +17,10 @@ class Movie():
         self.trailer_youtube_url = trailer
         self.release_date = release_date
 
-    def print(self):
+    def print_movie(self):
         '''Movie class print function to debug instance variable values'''
         print("Title: " + self.title)
         print("Storyline: " + self.storyline)
         print("Poster image URL: " + self.poster_image_url)
         print("Youtube trailer URL: " + self.trailer_youtube_url)
-        print("Release date (year): " + self.release_date)
+        print("Release date (year): " + str(self.release_date))
